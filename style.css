@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Torus Notched";
+    src: url("./font/torus.ttf"
+        );
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Torus Notched";
+}
+
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #0e1623;
+    overflow: hidden;
+}
+
+section .text {
+    position: relative;
+    font-size: 5em;
+    margin: 40px;
+    text-align: center;
+    color: #00fe77;
+    -webkit-box-reflect: below -.2em linear-gradient(transparent, #0004);
+}
+
+section .text span {
+    position: relative;
+    display: inline-block;
+}
